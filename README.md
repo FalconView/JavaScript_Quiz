@@ -28,3 +28,6 @@ This is a game to test the coding skills. By setting time as a score and -10 sec
 ## Website
 https://falconview.github.io/JavaScript_Quiz/
 ![alt text](./Assets/Images/01_first-screen.png)
+
+## Contribution
+Made by Feroz Zargar

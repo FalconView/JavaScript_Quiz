@@ -1,302 +1,299 @@
 :root {
-    --primary: #b307b9;
-    --secondary: #2e098b;
-    --tertiary: #FFFFFF;
+  --primary: #b307b9;
+  --secondary: #2e098b;
+  --tertiary: #ffffff;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Header style start */
 header {
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.1vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1vw;
 }
 
 header p {
-    padding: 20px 40px 40px 35px;
-    margin-bottom: 20px;
+  padding: 20px 40px 40px 35px;
+  margin-bottom: 20px;
 }
 
 .view-scores a {
-    text-decoration: none;
-    color: var(--primary);
+  text-decoration: none;
+  color: var(--primary);
 }
 /* Header style end */
 
 main {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Titles */
 main h1 {
-    font-size: 2.3vw;
-    padding: 25px;
+  font-size: 2.3vw;
+  padding: 25px;
 }
 
 /* Instruction */
 main p {
-    margin: 15px auto;
-    font-size: 1.522vw;
-    line-height: 1.3;
-    width: 55%;
+  margin: 15px auto;
+  font-size: 1.522vw;
+  line-height: 1.3;
+  width: 55%;
 }
 
 /* Buttons */
 main button {
-    padding: 10px 25px;
-    margin-top: 15px;
-    font-size: 1.3vw;
-    color: var(--tertiary);
-    background-color: var(--secondary);
-    border-radius: 19px;
-    border-style: none;
+  padding: 10px 25px;
+  margin-top: 15px;
+  font-size: 1.3vw;
+  color: var(--tertiary);
+  background-color: var(--secondary);
+  border-radius: 19px;
+  border-style: none;
 }
 
 main button:hover {
-    background-color: var(--primary);
+  background-color: var(--primary);
 }
 
 /* Main style change when questions start */
 .main-style {
-    text-align: left;
-    margin-left: 300px;
-    width: 75%;
+  text-align: left;
+  margin-left: 300px;
+  width: 75%;
 }
 
 /* Answers style */
 .answer-list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .answer-btn {
-    text-align: left;
-    /* max-width: 16vw; */
-    margin-left: 20px;
-    width: max-content;
+  text-align: left;
+  /* max-width: 16vw; */
+  margin-left: 20px;
+  width: max-content;
 }
 
 .answer {
-    margin: 5px 0 5px 30px;
+  margin: 5px 0 5px 30px;
 }
 
 /* Result section style */
 .section-border {
-    margin-top: 50px;
-    color: #b9b7be;
-    font-style: italic;
-    border-top: 2px solid;
+  margin-top: 50px;
+  color: #b9b7be;
+  font-style: italic;
+  border-top: 2px solid;
 }
 
 .result {
-    margin: 15px 0 0 15px;
-    font-size: 2.7vw;
+  margin: 15px 0 0 15px;
+  font-size: 2.7vw;
 }
 
 /* Final score screen style */
 .final-score {
-    margin: 0;
-    padding: 15px 0 18px 15px;
-    font-size: 2.2vw;
-    line-height: 1;
+  margin: 0;
+  padding: 15px 0 18px 15px;
+  font-size: 2.2vw;
+  line-height: 1;
 }
 
 .flex-wrap {
-    padding-left: 15px;
-    display: flex;
+  padding-left: 15px;
+  display: flex;
 }
 
 .initial-form {
-    font-size: 2.2vw;
-    margin-right: 20px;
+  font-size: 2.2vw;
+  margin-right: 20px;
 }
 
 #initial {
-    padding: 7px 10px;
-    font-size: 1.8vw;
-    width: 340px;
+  padding: 7px 10px;
+  font-size: 1.8vw;
+  width: 340px;
 }
 
 #initial:focus {
-    outline: none;
-    border: 2px solid #419dd6;
+  outline: none;
+  border: 2px solid #419dd6;
 }
 
 .submit-btn {
-    padding: 0 15px;
-    margin-top: 5px;
-    font-size: 1.5vw;
-    border-radius: 13px;
-    height: 52px;
+  padding: 0 15px;
+  margin-top: 5px;
+  font-size: 1.5vw;
+  border-radius: 13px;
+  height: 52px;
 }
 
 /* High scores screen style start */
 .high-scores-list {
-    margin: 10px 20px;
+  margin: 10px 20px;
 }
 
 .score-item {
-    font-size: 1.8vw;
-    padding: 8px 12px;
-    margin-right: 200px;
-    list-style-position: inside;
+  font-size: 1.8vw;
+  padding: 8px 12px;
+  margin-right: 200px;
+  list-style-position: inside;
 }
 
 .score-item:nth-of-type(odd) {
-    background: #7274F760;
+  background: #7274f760;
 }
 
 .secondary-btn {
-    margin: 10px 5px;
-    padding: 8px 15px;
-    font-size: 1.3vw;
-    border-radius: 19px;
+  margin: 10px 5px;
+  padding: 8px 15px;
+  font-size: 1.3vw;
+  border-radius: 19px;
 }
 
 .secondary-btn a {
-    text-decoration: none;
-    color: var(--tertiary);
+  text-decoration: none;
+  color: var(--tertiary);
 }
 /* High score screen style end */
 
 /* Respsonsive designs start */
 @media screen and (max-width: 980px) {
-    main p {
-        width: 70%;
-    }
+  main p {
+    width: 70%;
+  }
 
-    .main-style {
-        width: 75%;
-    }
+  .main-style {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    header,
-    .score-item,
-    .secondary-btn {
-        font-size: 2.8vw;
-    }
+  header,
+  .score-item,
+  .secondary-btn {
+    font-size: 2.8vw;
+  }
 
-    main,
-    .main-style {
-        margin-top: 0;
-    }
+  main,
+  .main-style {
+    margin-top: 0;
+  }
 
-    main h1 {
-        font-size: 5.5vw;
-    }
+  main h1 {
+    font-size: 5.5vw;
+  }
 
-    main p {
-        font-size: 3vw;
-    }
+  main p {
+    font-size: 3vw;
+  }
 
-    main button {
-        font-size: 3.5vw;
-    }
+  main button {
+    font-size: 3.5vw;
+  }
 
-/* Questions start from here */
+  /* Questions start from here */
 
-    .answer-btn {
-        max-width: 50vw;
-    }
+  .answer-btn {
+    max-width: 50vw;
+  }
 
-    .result {
-        font-size: 3.7vw;
-    }
+  .result {
+    font-size: 3.7vw;
+  }
 
-/* Final score screen */
-    .final-score {
-        font-size: 3.2vw;
-    }
+  /* Final score screen */
+  .final-score {
+    font-size: 3.2vw;
+  }
 
-    .initial-form {
-        display: flex;
-        flex-direction: column;
-        font-size: 3.2vw;
-    }
+  .initial-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.2vw;
+  }
 
-    #initial {
-        margin-top: 10px;
-        font-size: 2.1vw;
-    }
+  #initial {
+    margin-top: 10px;
+    font-size: 2.1vw;
+  }
 
-    .submit-btn {
-        margin-top: 40px;
-        padding: 8px 15px;
-        font-size: 2.8vw;
-    }
+  .submit-btn {
+    margin-top: 40px;
+    padding: 8px 15px;
+    font-size: 2.8vw;
+  }
 }
 
 @media screen and (max-width: 575px) {
-    header p {
-        padding: 20px 25px;
-        margin: 0;
-    }
+  header p {
+    padding: 20px 25px;
+    margin: 0;
+  }
 
-    main h1 {
-        padding: 15px 20px;
-        font-size: 8vw;
-    }
+  main h1 {
+    padding: 15px 20px;
+    font-size: 8vw;
+  }
 
-    main p {
-        width: 80%;
-        font-size: 5vw;
-    }
+  main p {
+    width: 80%;
+    font-size: 5vw;
+  }
 
-    main button {
-        font-size: 5.5vw;
-    }
+  main button {
+    font-size: 5.5vw;
+  }
 
-/* Questions start from here */
-    .main-style {
-        width: 90%;
-    }
+  /* Questions start from here */
+  .main-style {
+    width: 90%;
+  }
 
-    .answer-list {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
+  .answer-list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 
-    .answer-btn {
-        width: 80vw;
-        max-width: 80vw;
-        margin: 15px auto 0 auto;
-    }
+  .answer-btn {
+    width: 80vw;
+    max-width: 80vw;
+    margin: 15px auto 0 auto;
+  }
 
-    .result {
-        font-size: 5.7vw;
-    }
+  .result {
+    font-size: 5.7vw;
+  }
 
-/* Final score screen  */
-    .final-score
-    .initial-form
-    .submit-btn
-    .secondary-btn {
-        font-size: 4.5vw;
-    }
+  /* Final score screen  */
+  .final-score .initial-form .submit-btn .secondary-btn {
+    font-size: 4.5vw;
+  }
 
-    #initial {
-        font-size: 4vw;
-        max-width: 250px;
-    }
+  #initial {
+    font-size: 4vw;
+    max-width: 250px;
+  }
 
-    .flex-wrap {
-        flex-wrap: wrap;
-    }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
 
-/* High score screen */
-    .score-item {
-        font-size: 4vw;
-    }
+  /* High score screen */
+  .score-item {
+    font-size: 4vw;
+  }
 }
-/* Responsive Designs end */
+/* Responsive Designs End */

@@ -13,7 +13,7 @@ This is a game to test the coding skills. By setting time as a score and -10 sec
 * When answered all the questions, it will show the final score and let you enter you initial to save into the local storage.<br/>
     ![alt text](./Assets/Images/03_quiz-wrong.png)
 * After saving score, it will show high scores.<br/>
-    ![alt text](./Assets/Images/05_high-scores.png)
+    ![alt text](./Assets/Images/04_final-score.png)
 * To clear the high scores, click "Clear high scores" button.<br/>
     ![alt text](./Assets/Images/06_clear-high-scores-1.png)
     ![alt text](./Assets/Images/06_clear-high-scores-2.png)

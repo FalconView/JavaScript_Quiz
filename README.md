@@ -21,8 +21,8 @@ This is a game to test the coding skills. By setting time as a score and -10 sec
 * When clicked "View high scores", it will show high scores.
 
 ## Built With
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
 ## Website
